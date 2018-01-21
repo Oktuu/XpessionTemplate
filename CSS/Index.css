@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+}
+.center {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+header {
+	font-size: 20px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0 10px 0px 0 orange;
+}
+a:hover { 
+transition: all 0.5s; 
+color: #FF9901;
+}
+header ul {
+list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+header ul span {
+	color: white;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+header a {
+text-decoration: none;
+color: white;
+}
+.search {
+	width: 15%;
+	margin-right: 30px;
+}
+.searchIcon {
+	background-image: url("http://www.clker.com/cliparts/7/C/B/Q/6/n/search-icon-hi.png");
+	background-repeat: no-repeat;
+	background-size: 6%;
+	background-position: right;
+}
+.searchIcon {
+	border-radius: 50px;
+	color: white;
+	width: 100%;
+	height: 30px;
+	margin-top: 15px;
+	background-color: rgb(49, 49, 49);
+	border: none;
+	outline: none;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(49, 49, 49);
+}
+.searchIcon:hover {
+	background-image: none;
+}
+.mainBaner {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	height: 100px;
+	padding-bottom: 35px;
+}
+.mainBanerImg {
+	margin-top: 30px;
+	margin-right: 15px;
+}
+.mainBanerImg img {
+	width: 720px;
+	height: 80px;
+}
+h1 {
+	margin: 0 auto;
+}
+.Xpression {
+	font-size: 25px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.Xpression p {
+	font-size:15px;
+	color: gray;
+}
+nav {
+	background: linear-gradient(#e3e3e3, #9f9f9f);
+	border: solid;
+	border-color:#838080;
+}
+nav ul {
+	display:flex;
+	justify-content: flex-start;
+	list-style: none;
+}
+nav ul span {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #585656;
+}
+nav a {
+	color: black;
+	margin-right: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #585656;
+}
+nav a:hover {
+	color: #dd8f00;
+}
+.hugeArticle {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+.hugeArticleImg {
+	margin-right: 15px;
+	width: 760px;
+	height: 460px;
+}
+.hugeArticleImg img {
+	width: 760px;
+	height: 460px;
+}
+.hugeArticleText {
+width: 500px;
+	margin-top: 50px;
+	margin-left: 20px;
+	font-size: 24px;
+	margin-right: 10px;
+}
+.hugeArticleText a {
+		font-size: 24px;
+	}
+.hugeArticleText form {
+	margin-top: 30px;
+}
+.more {
+text-decoration: none;
+	color:  #dd8f00;
+	font-size: 20px;
+}
+.threeBlocks {
+   display: flex;
+	justify-content: space-between;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: #e3e3e3;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+.innerBlockFlex {
+	display: flex;
+	justify-content: flex-start;
+}
+.threeBlocks article {
+		margin-left: 15px;
+	margin-right: 15px;
+	}
+.innerBlockFlex h3 {
+	margin-left: 10px;
+}
+.FourArticles {
+  display:flex;
+  justify-content: space-beetween;
+	margin-bottom: 35px;
+}
+.icon {
+  width:42px;
+  height:42px;
+  float: left;
+	margin-right: 10px;
+}
+.moreSmall {
+  text-decoration: none;
+  color: #dd8f00;
+  float: right;
+  font-size: 20px;
+	
+}
+.smallArticle {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.bigArticle {
+  margin-left: 20px;
+}
+.flamingo {
+  box-shadow: 0 5px 5px 0 gray;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+footer {
+display: flex;
+justify-content: space-between;
+	padding-bottom: 15px;
+	color: #d6d0d0;
+	background: rgb(49, 49, 49);
+}
+footer h3 {
+	margin-right: 30px;
+}
+.fromBlog {
+	width: 350px;
+	margin-left: 20px;
+}
+footer div a {
+	text-decoration: none;
+	color: #d6d0d0;
+}
+.newssetler {
+background: #4a4a4a;
+	border: none;
+	border-radius: 10px;
+	color: #d6d0d0;
+	border-style: solid;
+	border-width: 5px;
+	border-color:  #4a4a4a;
+	margin-bottom: 20px;
+	font-size: 20px;
+	margin-right: 20px;
+	outline: none;
+}
+.submit {
+	background: #4a4a4a;
+	border: none;
+	border-radius: 10px;
+	color: #dd8f00;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #4a4a4a;
+	margin-bottom: 20px;
+	font-size: 20px;
+	outline: none;
+}
