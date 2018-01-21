@@ -21,6 +21,8 @@
 	}
 	.bigArticle {
 		text-align: center;
+		margin-right: 30px;
+		margin-bottom: 20px;
 	}
 }
 @media screen and (max-width: 882px) {
